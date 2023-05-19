@@ -4,8 +4,9 @@ sdi1900019 Vasileiou Riginos
 # Sniffer 
 
 Compile command : make all
-How to run : ./sniffer (for current directory)
-             ./sniffer -p path (for directory in path)
+
+How to run : ./sniffer (for current directory) ή ./sniffer -p path (for directory in path)
+             
 Clean : make clean
 
 Θα χρειαστεί να δημιουργήσετε έναν κενό φάκελο output.
@@ -13,7 +14,7 @@ Clean : make clean
 
 ABOUT THE CODE
 
-Όλα τα reads γίνονται με BUFFSIZE και όχι δυναμικά
+Όλα τα reads γίνονται με BUFFSIZE και όχι δυναμικά.
 Ο φάκελος output/ χρειάζεται για την εργασία. Αρχικά είναι κενός, μετά θα μπουν τα .out αρχεία
 Ο φάκελος txt/ έχει τα δοκιμαστικά αρχεία που μας δόθηκαν
 
