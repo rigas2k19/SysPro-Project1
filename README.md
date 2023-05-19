@@ -1,7 +1,7 @@
 sdi1900019 Vasileiou Riginos
 
 
-#Sniffer 
+# Sniffer 
 
 Compile command : make all
 How to run : ./sniffer (for current directory)
@@ -57,7 +57,7 @@ filename το path και κρατάμε μόνο το όνομα του αρχ�
 φάκελο. Τέλος για να γεμίσουμε το <filename>.out διατρέχουμε τη λίστα με τα locations και τα γράφουμε στο αρχείο. Κάνουμε free
 τη λίστα στο τέλος της while και μετά raise(SIGSTOP) για να σταματήσει και να στείλει σήμα SIGCHLD στον manager.
 
-#Finder 
+# Finder 
 
 first run : chmod u+x finder.sh
 then run : ./finder.sh [args]       (px. ./finder.sh com gr gov)
