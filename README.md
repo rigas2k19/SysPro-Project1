@@ -8,6 +8,7 @@ How to run : ./sniffer (for current directory)
              ./sniffer -p path (for directory in path)
 Clean : make clean
 
+Θα χρειαστεί να δημιουργήσετε έναν κενό φάκελο output.
 Αν θέλουμε να ξανατρέξουμε το πρόγραμμα πρέπει να αδειάσουμε το output/ από τα .out αρχεία.
 
 ABOUT THE CODE
@@ -57,6 +58,7 @@ filename το path και κρατάμε μόνο το όνομα του αρχ�
 τη λίστα στο τέλος της while και μετά raise(SIGSTOP) για να σταματήσει και να στείλει σήμα SIGCHLD στον manager.
 
 ################# finder ###################
+
 first run : chmod u+x finder.sh
 then run : ./finder.sh [args]       (px. ./finder.sh com gr gov)
 
@@ -64,5 +66,3 @@ then run : ./finder.sh [args]       (px. ./finder.sh com gr gov)
 τα διαβάζει γραμμή-γραμμή και ψάχνει να βρει αν υπάρχει location με tld αυτο που του περνάμε σαν όρισμα (Στο παράδειγμα ψάχνει να βρει location
 που τελειώνει σε com, gr και gov). Χωρίζει την κάθε γραμμή στο " ". Tο πρώτο token είναι το location και το δεύτερο είναι ο counter.
 Αν το location τελειώνει στο συγκεκριμένο tld τότε αυξάνει τον αριθμό εμφανίσεων του location κατά counter.
-
-############################################################################################################################################
